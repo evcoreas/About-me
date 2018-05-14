@@ -1,0 +1,29 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "a glimpse about my life in node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evcoreas/About-me.git"
+  },
+  "keywords": [
+    "about",
+    "me",
+    "erika"
+  ],
+  "author": "Erika Coreas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evcoreas/About-me/issues"
+  },
+  "homepage": "https://github.com/evcoreas/About-me#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
