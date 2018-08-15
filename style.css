@@ -143,7 +143,6 @@ ul {
   flex-direction: column;
   }
 
-
   #tabs li{
     margin: 0;
     float: none;
@@ -154,12 +153,42 @@ ul {
   #navigation-bar{
     float: none;
   }
+
+  #title {
+    font-size: 20px;
+  }
   
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:375px){
+  h1 {
+    font-size:  20px;
+  }
+
+  .headline {
+    font-size: 10px;
+  }
+
   li a {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+  }
+    #navigation-bar {
+    float: none;
+  }
+    #tabs li{
+      height: 35px;
+      width:  100%;
+      padding: 5px;
+      font-size: 15px;
   }
 }
 
@@ -189,7 +218,7 @@ ul {
 
 .inner-text p {
 	line-height: 19px;
-	font-size: 16px;
+	font-size: 20px;
   text-align: center;
 }
 
@@ -208,6 +237,16 @@ ul {
     font-size: 30px;
   }
 }
+
+@media screen and (max-width:375px){
+   #title{
+    font-size: 20px;
+  }
+  p {
+    font-size:  15px;
+  }
+}
+
 
 /*-------------------------- Photo Gallery ---------------------------------- */
 
