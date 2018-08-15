@@ -111,6 +111,7 @@ ul {
 #tabs li {
   margin: 5px;
   padding: 10px;
+  text-decoration: none;
 }
 
 li a {
@@ -217,8 +218,8 @@ ul {
 
 
 .inner-text p {
-	line-height: 19px;
-	font-size: 20px;
+  line-height: 19px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -413,4 +414,3 @@ img {
     font-size: 15px;
   }
 }*/
-
